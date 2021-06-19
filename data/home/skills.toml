@@ -1,11 +1,14 @@
 [[list]]
     name = "Cambio de Mallas"
+    icon = "clock.png"
     image = "mallas.png"
     
 [[list]]
     name = "Cambio de Pilas"
+    icon = "clock.png"
     image = "pilas.png"
     
 [[list]]
     name = "Limpieza"
+    icon = "clock.png"
     image = "limpieza.png"
