@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-theme = "SimpleIntro"
+theme = "simple-intro"
 title = "Relojeria Esquina Favorita"
 publishDir = "public"
 
