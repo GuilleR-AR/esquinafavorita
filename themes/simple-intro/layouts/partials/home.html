@@ -32,20 +32,20 @@
       <div class="my-auto md:mr-4">
         {{ partial "home_title" (dict "title" "Contactanos") }}
         <div class="flex mt-3 gap-3 text-xl">
-          {{ range $data.about.link }}
+          {{ range $data.acercade.link }}
           <a href="{{.url}}"><i class="{{ .icon }}"></i></a>{{end}}
         </div>
       </div>
       <div class="mt-4 md:mt-0 md:ml-4">
         <div class="text-2xl font-bold">
-          {{ if $data.about.title }}{{$data.about.title}}{{else}}You can put
-          text in data/home/about.toml/title{{end}}
+          {{ if $data.acercade.title }}{{$data.acercade.title}}{{else}}You can put
+          text in data/home/acercade.toml/title{{end}}
         </div>
         <div class="text-lg mt-3">
           <div>
-            {{ if $data.about.text}}{{ replace $data.about.text "\n" "<br />" | safeHTML }}
+            {{ if $data.acercade.text}}{{ replace $data.acercade.text "\n" "<br />" | safeHTML }}
             {{else}}You can put text in
-            data/home/about.toml/text{{end}}
+            data/home/acercade.toml/text{{end}}
           </div>
         </div>
       </div>
@@ -55,11 +55,11 @@
         {{ partial "home_title" (dict "title" "Reparaciones") }}
       </div>
       
-      {{if $data.skills.list}}
+      {{if $data.reparaciones.list}}
         <div
          class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
         >
-        {{ range $data.skills.list }}
+        {{ range $data.reparaciones.list }}
         <div class="w-full rounded overflow-hidden shadow-lg">
           <div class="">
             <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
@@ -88,7 +88,7 @@
         {{end}}
       </div>
         {{else}}
-          <div class="mt-4 text-xl text-center">Skills don't exist</div>
+          <div class="mt-4 text-xl text-center">reparaciones don't exist</div>
         {{end}}
     </section>
     <section id="marcas" class="mt-12">
@@ -96,11 +96,11 @@
         {{ partial "home_title" (dict "title" "Marcas") }}
       </div>
       
-      {{if $data.skills.list}}
+      {{if $data.reparaciones.list}}
       <div
         class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
       >
-        {{ range $data.project.list }}
+        {{ range $data.marcas.list }}
         <div class="w-full rounded overflow-hidden shadow-lg">
           <a href="{{ .url }}" target="_blank">
             <img
