@@ -1,0 +1,11 @@
+[[list]]
+    name = "Cambio de Mallas"
+    image = "mallas.png"
+    
+[[list]]
+    name = "Cambio de Pilas"
+    image = "pilas.png"
+    
+[[list]]
+    name = "Limpieza"
+    image = "limpieza.png"
