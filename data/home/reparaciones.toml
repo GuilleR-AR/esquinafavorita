@@ -2,13 +2,16 @@
     name = "Cambio de Mallas"
     icon = "clock.png"
     image = "mallas.png"
+    alt = "Cambio de Mallas"
     
 [[list]]
     name = "Cambio de Pilas"
     icon = "clock.png"
     image = "pilas.png"
+    alt = "Cambio de Pilas"
     
 [[list]]
     name = "Limpieza"
     icon = "clock.png"
     image = "limpieza.png"
+    alt = "Limpieza"

@@ -1,8 +1,11 @@
 [[list]]
     image = "casio.png"
+    alt = "Casio"
 
 [[list]]
     image = "citizen.png"
+    alt = "Citizen"
 
 [[list]]
     image = "tressa.png"
+    alt = "Tressa"
