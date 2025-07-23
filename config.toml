@@ -4,11 +4,6 @@ theme = "simple-intro"
 title = "Relojeria Esquina Favorita"
 publishDir = "public"
 
-[context.production.environment]
-  HUGO_VERSION = "0.145.0"
-  HUGO_ENV = "production"
-  TZ = "Argentina/Buenos_Aires"
-
 [params]
     mainbg = "background2.jpg"
     name = "Relojeria Esquina Favorita"
